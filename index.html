@@ -4,45 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camp</title>
+    <link rel="stylesheet" href="styles\styles.css">
 </head>
+
 <body>
     <!-- HEADER -->
     <header>
         <img src="images\img.png" alt="img-ini">
-
-        <ul>
-            <strong>
+        <nav>
+            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Locations</a></li>
                 <li><a href="#">Testimonials</a></li>
                 <li><a href="#">Contact Us</a></li>
-            </strong>
-        </ul>
+                <button>Log in</button>
+            </ul>
+        </nav>
     </header>
 
-    <!-- MAIN -->
+    <!-- MAIN --> 
     <main>
 
-        <div class="Imagen-1">
+        <div class="rect1">
             <img src="images\img1.png" alt="Imagen1">
         </div>
 
-        <div>
-            <h2>Here, we put kids in change.</h2>
-            <p>
-                When you trust kids, they trust themselves. For 44 years, we’ve put kids in charge of their <br>
-                own learning experience. They try, fail, and learn on their own. They learn to trust their own <br>
-                judgment, and tackle the challenges of an ever changing world with creativity and <br>
-                confidence. <br>
-                Campers choose minute to minute from a variety of activities including, sewing, stop- <br>
-                motion animation, music, sports & recreation, makers crafts, bread making, and more. <br>
-                They’ll decide what they want to do, and for how long. Our job is to get out of their way, <br>
-                cheerlead creative risks, and provide just enough guidance to make sure nobody does <br>
-                anything totally* asinine.
-            </p>
-            <p>*Totally asinine: By our definition, mistakes aren’t asinine. They’re how you learn.</p>
-        
-            <div>
+        <div class="cont2">
+            
+            <div class="rect2">
+                <h2>Here, we put kids in charge.</h2>
+                <p class="text1">
+                    Preposterous? Possibly. <br>
+                    Effective? You betcha. 
+                </p>
+                <p class="text2">
+                    When you trust kids, they trust themselves. For 44 years, we’ve put kids in charge of their <br>
+                    own learning experience. They try, fail, and learn on their own. They learn to trust their own <br>
+                    judgment, and tackle the challenges of an ever changing world with creativity and <br>
+                    confidence. <br>
+                    Campers choose minute to minute from a variety of activities including, sewing, stop- <br>
+                    motion animation, music, sports & recreation, makers crafts, bread making, and more. <br>
+                    They’ll decide what they want to do, and for how long. Our job is to get out of their way, <br>
+                    cheerlead creative risks, and provide just enough guidance to make sure nobody does <br>
+                    anything totally* asinine.
+                </p>
+                <p class="text3">*Totally asinine: By our definition, mistakes aren’t asinine. They’re how you learn.</p>
+            
+            </div>
+            
+            <div class="rect2-1">
                 <img src="images\img2.png" alt="Imagen2">
                 <h3>Holiday Camps</h3>
                 <p>
@@ -55,13 +65,15 @@
             </div>
         </div>
 
-        <div>
-            <img src="images\img3.png" alt="Imagen3">
-            <h3>70+ Locations-Probably Near You</h3>
-            <p><strong>Select a location to learn more about our camps</strong></p>
+        <div class="cont3">
+            <div class="rect3">
+                <!-- <h3>70+ Locations-Probably Near You</h3>
+                <p>Select a location to learn more about our camps</p> -->
+                <img src="images\img3.png" alt="Imagen3">
+            </div>
         </div>
 
-        <div>
+        <div class="rect4">
             <table>
                 <tr>
                     <th>STATE</th>
@@ -73,104 +85,117 @@
                     <td>Alabama</td>
                     <td><a href="https://www.britannica.com/place/Alexander-City">Alexader City</a></td>
                     <td>Summer Camp</td>
-                    <td>YES</td>
+                    <td class="availability available">&#10004;</td>
                 </tr>
                 <tr>
                     <td>Alabama</td>
                     <td><a href="https://www.britannica.com/place/Dothan">Dothan</a></td>
                     <td>Holiday Camp</td>
-                    <td>NO</td>
+                    <td class="availability unavailable">&#10008;</td>
                 </tr>
                 <tr>
                     <td>Alaska</td>
                     <td><a href="https://www.britannica.com/place/Anchorage-Alaska">Anchorage</a></td>
                     <td>Sports Camp</td>
-                    <td>NO</td>
+                    <td class="availability unavailable">&#10008;</td>
                 </tr>
                 <tr>
                     <td>Arizona</td>
                     <td><a href="https://www.britannica.com/place/Nogales-Arizona">Nogales</a></td>
                     <td>Holiday Camp</td>
-                    <td>YES</td>
+                    <td class="availability available">&#10004;</td>
                 </tr>
                 <tr>
                     <td>Arizona</td>
                     <td><a href="https://www.britannica.com/place/Scottsdale-Arizona">Scottsdale</a></td>
                     <td>Sports Camp</td>
-                    <td>YES</td>
+                    <td class="availability available">&#10004;</td>
                 </tr>
                 <tr>
                     <td>Arizona</td>
                     <td><a href="https://www.britannica.com/place/Conway-Arkansas">Conway</a></td>
                     <td>Holiday Camp</td>
-                    <td>YES</td>
+                    <td class="availability available">&#10004;</td>
                 </tr>
                 <tr>
                     <td>Arkansas</td>
                     <td><a href="https://www.britannica.com/place/Conway-Arkansas">El Dorado</a></td>
                     <td>Sports Camp</td>
-                    <td>NO</td>
+                    <td class="availability unavailable">&#10008;</td>
                 </tr>
                 <tr>
                     <td>Arkansas</td>
                     <td><a href="https://www.britannica.com/place/Beverly-Hills">Beverly Hills</a></td>
                     <td>Summer Camp</td>
-                    <td>YES</td>
+                    <td class="availability available">&#10004;</td>
                 </tr>
             </table>
         </div>
 
-        <div>
-            <img src="images\img4.png" alt="Imagen4">
-            <h3>Testimonials</h3>
-            <p>
-                Learn where your website traffic is coming from, <br>
-                what your visitors are looking for, and how they’re <br>
-                interacting with your content or products through <br>
-                our in-depth Analytics tools.
-            </p>
+        <div class="cont5">
+            <div class="rect5">
+                <img src="images\img4.png" alt="Imagen4">
 
-            <div class="img-testimonials">
-                <div>
-                    <img src="images\img5.png" alt="Imagen5">
-                    <p>Mayra Dutch</p>
-                    <p>AIR FLOW</p>
-                    <p>
-                        “The best solution in the market to solve <br>
-                        any problem yoy may have. 
-                    </p>
-                </div>
+                <h3>Testimonials</h3>
+                <p class="text5">
+                    Learn where your website traffic is coming from, <br>
+                    what your visitors are looking for, and how they’re <br>
+                    interacting with your content or products through <br>
+                    our in-depth Analytics tools.
+                </p>
 
-                <div>
-                    <img src="images\img6.png" alt="Imagen6">
-                    <p>Anne Donovan</p>
-                    <p>AIR FLOW</p>
-                    <p>
-                        “The best solution in the market to solve <br>
-                        any problem yoy may have. 
-                    </p>
-                </div>
+                <div class="img-testimonials">
+                    <div class="testi1">
+                        <img src="images\img5.png" alt="Imagen5">
+                        <p>Mayra Dutch</p>
+                        <p>AIR FLOW</p>
+                        <p>
+                            “The best solution in the market to solve <br>
+                            any problem yoy may have. 
+                        </p>
+                    </div>
 
-                <div>
-                    <img src="images\img7.png" alt="Imagen7">
-                    <p>Aaron Smith</p>
-                    <p>AIR FLOW</p>
-                    <p>
-                        “The best solution in the market to solve <br>
-                        any problem yoy may have. 
-                    </p>s
+                    <div class="testi2">
+                        <img src="images\img6.png" alt="Imagen6">
+                        <p>Anne Donovan</p>
+                        <p>AIR FLOW</p>
+                        <p>
+                            “The best solution in the market to solve <br>
+                            any problem yoy may have. 
+                        </p>
+                    </div>
+
+                    <div class="testi3">
+                        <img src="images\img7.png" alt="Imagen7">
+                        <p>Aaron Smith</p>
+                        <p>AIR FLOW</p>
+                        <p>
+                            “The best solution in the market to solve <br>
+                            any problem yoy may have. 
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div>
-            <img src="images\img8.png" alt="Imagen8">
-            <h4>Contact Us</h4>
-            <p>Email Addres</p>
-            <p>Your Name</p>
-            <p>Your Location</p>
-            <p>Your Message</p>
-            <button>Send Message</button>
+        <div class="cont6">
+            <div class="rect6">
+                <img src="images\img8.png" alt="Imagen8">
+            </div>
+            
+            <div class="rect6-1">
+                <h4>Contact Us</h4>
+                <p>Email Addres</p>
+                <input class="input1" type="text" placeholder="Your email addres">
+                <p>Your Name</p>
+                <input class="input1" type="text" placeholder="First and Last Name">
+                <p>Your Location</p>
+                <input class="input2" type="text" placeholder="Your city">
+                <input class="input2-1" type="text" placeholder="Your Zip Code">
+                <p>Your Message</p>
+                <input class="input3" type="text" placeholder="Let us know what you would like to chat about!"> <br>
+                <button>Send Message</button>
+            </div>
         </div>
 
     </main>
@@ -179,49 +204,51 @@
     <footer>
         <img src="images\img9.png" alt="">
 
-        <div>
-            <p>ABOUT S&K</p>
-            <ul>   
-                <li><a href="#">Philosophy</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Press</a></li>
-                <li><a href="#">FAQs Us</a></li>
-                <li><a href="#">Evemts</a></li>
-            </ul>
+        <div class="footer-links">
+            <div class="">
+                <p class="principal-footer">About S&K</p>
+                <ul>   
+                    <li><a href="#">Philosophy</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">FAQs Us</a></li>
+                    <li><a href="#">Evemts</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <p class="principal-footer">Helpull Links</p>
+                <ul>   
+                    <li><a href="#">Finacial Aid</a></li>
+                    <li><a href="#">Using Bright Horizons</a></li>
+                    <li><a href="#">Back Up Care</a></li>
+                    <li><a href="#">Email List</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <p class="principal-footer">Our Camps</p>
+                <ul>   
+                    <li><a href="#">Summer Camps</a></li>
+                    <li><a href="#">Sping Break Camps</a></li>
+                    <li><a href="#">Winter Break Camps</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <p class="principal-footer">Legal Stuff</p>
+                <ul>   
+                    <li><a href="#">Liability</a></li>
+                    <li><a href="#">Waiver</a></li>
+                    <li><a href="#">DMCA</a></li>
+                    <li><a href="#">Steve & Kate's Virtual</a></li>
+                    <li><a href="#">Camp Guidelines & Safety</a></li>
+                </ul>
+            </div>
         </div>
 
-        <div>
-            <p>HELPFULL LINKS</p>
-            <ul>   
-                <li><a href="#">Finacial Aid</a></li>
-                <li><a href="#">Using Bright Horizons</a></li>
-                <li><a href="#">Back Up Care</a></li>
-                <li><a href="#">Email List</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <p>OUR CAMPS</p>
-            <ul>   
-                <li><a href="#">Summer Camps</a></li>
-                <li><a href="#">Sping Break Camps</a></li>
-                <li><a href="#">Winter Break Camps</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <p>LEGAL STUFF</p>
-            <ul>   
-                <li><a href="#">Liability</a></li>
-                <li><a href="#">Waiver</a></li>
-                <li><a href="#">DMCA</a></li>
-                <li><a href="#">Steve & Kate's Virtual</a></li>
-                <li><a href="#">Camp Guidelines & Safety</a></li>
-            </ul>
-        </div>
-
-        <p>Copyright © 2024. All Rights Reserved.</p>
+        <p class="copyright">Copyright © 2024. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
